@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*------------ HEADER---------------- */
+
+.header{
+    background-image: url(img/pat_header.jpg);
+    background-color: cornsilk;
+    background-repeat: repeat;
+    background-repeat: cover;
+    text-align: center;
+    
+}
+
+/* ---------------NAVBAR---------- */
+
+.Header__nav ul{
+padding: 5rem;
+margin: 5rem;
+list-style-type: none;
+}
+
+/* .header__nav li{
+    display: inline-block
+    ;
+} */
+
+.header__nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1rem;
+    background-color: burlywood;
+ 
+}
+
+.header__titulo{
+    color: darkgreen;
+    font-size: 30px;
+    padding: 2px;
+    font-weight: bolder;
+    background-color: rgb(230, 225, 168);
+    
+
+}
+
+/*--------CONTENT-----*/
+.contenedorFlex{
+    display: flex;
+}
+.section__content{
+    display: grid;
+    grid-template-columns: 2;
+    gap: 2rem;
+    background-color: rgb(157, 206, 157);
+    padding: 2rem ;
+    font-size: 1.2;
+    line-height: 1.5;
+    text-align: justify;
+    
+
+
+
+}
+
+.img__locales{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around ;
+    background-color: rgb(157, 206, 157);
+}
+
+.aside{
+    background-color: rgb(159, 210, 167);
+    font-size: 14px;
+    background-color=green
+}
+
+.footer{
+    aling="left"
+    background-color: rgb(157, 206, 157);
+}
+
+.form{
+    background-color:rgb(157, 206, 157) ;
+}
