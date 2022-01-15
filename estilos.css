@@ -6,19 +6,21 @@
 /*------------ HEADER---------------- */
 
 .header{
+    padding-top: 2rem;
     background-image: url(img/pat_header.jpg);
     background-color: cornsilk;
     background-repeat: repeat;
     background-repeat: cover;
     text-align: center;
+    list-style: none;
     
 }
 
 /* ---------------NAVBAR---------- */
 
 .Header__nav ul{
-padding: 5rem;
-margin: 5rem;
+padding: 10rem;
+margin: 10rem;
 list-style-type: none;
 }
 
@@ -33,13 +35,24 @@ list-style-type: none;
     color: black;
     font-size: 1rem;
     background-color: burlywood;
- 
+     
+}
+
+.header__nav a:hover{
+    background-color: brown;
+
+}
+
+.header__nav--principal{
+    list-style: none;
 }
 
 .header__titulo{
+   
     color: darkgreen;
     font-size: 30px;
     padding: 2px;
+    margin: 2rem;
     font-weight: bolder;
     background-color: rgb(230, 225, 168);
     
@@ -59,9 +72,6 @@ list-style-type: none;
     font-size: 1.2;
     line-height: 1.5;
     text-align: justify;
-    
-
-
 
 }
 
