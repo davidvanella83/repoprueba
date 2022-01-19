@@ -1,27 +1,27 @@
-*{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0px;
+  margin: 0px;
 }
 
 /*------------ HEADER---------------- */
 
-.header{
-    padding-top: 2rem;
-    background-image: url(img/pat_header.jpg);
-    background-color: cornsilk;
-    background-repeat: repeat;
-    background-repeat: cover;
-    text-align: center;
-    list-style: none;
-    
+.header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-image: url(img/pat_header.jpg);
+  background-color: cornsilk;
+  background-repeat: repeat;
+  background-repeat: cover;
+  text-align: center;
+  list-style: none;
 }
 
 /* ---------------NAVBAR---------- */
 
-.Header__nav ul{
-padding: 10rem;
-margin: 10rem;
-list-style-type: none;
+.Header__nav ul {
+  padding: 2rem;
+  margin: 2rem;
+  list-style-type: none;
 }
 
 /* .header__nav li{
@@ -29,70 +29,90 @@ list-style-type: none;
     ;
 } */
 
-.header__nav a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-size: 1rem;
-    background-color: burlywood;
-     
+.header__nav a {
+  text-decoration: none;
+  text-transform: none;
+  color: black;
+  font-size: 1.5rem;
+  background-color: burlywood;
 }
 
-.header__nav a:hover{
-    background-color: brown;
-
+.header__nav a:hover {
+  background-color:rgb(21, 56, 5);
+  color: bisque;
 }
 
-.header__nav--principal{
-    list-style: none;
+.header__nav--principal {
+  list-style: none;
 }
 
-.header__titulo{
-   
-    color: darkgreen;
-    font-size: 30px;
-    padding: 2px;
-    margin: 2rem;
-    font-weight: bolder;
-    background-color: rgb(230, 225, 168);
-    
-
+.header__titulo {
+  color: rgb(234, 236, 234);
+  font-size: 30px;
+  padding: 2px;
+  margin: 2rem;
+  font-weight: bolder;
+  background-color: rgb(21, 56, 5);
 }
 
 /*--------CONTENT-----*/
-.contenedorFlex{
-    display: flex;
-}
-.section__content{
-    display: grid;
-    grid-template-columns: 2;
-    gap: 2rem;
-    background-color: rgb(157, 206, 157);
-    padding: 2rem ;
-    font-size: 1.2;
-    line-height: 1.5;
-    text-align: justify;
 
+.contenedorFlex {
+  display: flex;
 }
-
-.img__locales{
-    padding: 2rem;
-    display: flex;
-    justify-content: space-around ;
-    background-color: rgb(157, 206, 157);
+.section__content {
+  display: grid;
+  grid-template-columns: 2;
+  gap: 2rem;
+  background-image: linear-gradient(to top, rgb(159, 210, 167), white);
+  padding: 2rem;
+  font-size: 1.2;
+  line-height: 1.5;
+  text-align: justify;
 }
 
+.animate__animated  {
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(5, 82, 5);
+
+ {
+    
+}
+}
+
+.img__locales {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.img__locales--moving {
+  max-width: 200px;
+  min-width: 100;
+}
 .aside{
-    background-color: rgb(159, 210, 167);
-    font-size: 14px;
-    background-color=green
+    background-color: rgb(230, 225, 168);
+    outline-style: groove;
+    text-align:center;
+    font-family:Verdana;
+}
+.aside__list--ul{
+    list-style-type: none;
+    text-align: center;
 }
 
 .footer{
-    aling="left"
-    background-color: rgb(157, 206, 157);
+    background-color: black;
+    padding-bottom: 2rem;
+    text-align:center
 }
 
-.form{
-    background-color:rgb(157, 206, 157) ;
+.cardmaster{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+
 }
+
+
