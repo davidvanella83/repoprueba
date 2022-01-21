@@ -110,11 +110,12 @@
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
+  }
+
 }
 @media screen and (max-width: 500) {
     .header__nav a:hover {
         background-color: rgb(5, 14, 0);
         color: rgb(248, 139, 7);
-        
-}
 
+}
