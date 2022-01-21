@@ -112,8 +112,9 @@
   text-align: center;
 }
 @media screen and (max-width: 500) {
-    .footer {
-        background-color: rgb(131, 187, 124);
+    .header__nav a:hover {
+        background-color: rgb(5, 14, 0);
+        color: rgb(248, 139, 7);
         
-    }
 }
+
